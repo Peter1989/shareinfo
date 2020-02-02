@@ -2,6 +2,7 @@
 <div>
     <home-header></home-header>
     <tab></tab>
+    <tab v-if="showTab"></tab>
     <router-view/>
 </div>
 </template>
@@ -13,6 +14,11 @@ export default {
   components: {
     HomeHeader,
     Tab
+  },
+  computed: {
+    showTab: function () {
+      return false
+    }
   }
 }
 </script>
