@@ -1,6 +1,6 @@
 <template>
     <div>
-        trans
+        正在收集
     </div>
 </template>
 <script>
