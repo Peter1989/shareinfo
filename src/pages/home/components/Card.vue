@@ -23,25 +23,24 @@ export default {
 <style lang='stylus' scoped>
 @import '~styles/varibles.styl'
 .card_wrap
-  margin: .2rem
+  margin: 8vw
   text-align: center
   .card
-    padding: .2rem
+    padding: 5vw
     display: inline-block
-    height: 3.5rem
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 1vw 2vw 0 rgba(0,0,0,0.2);
     transition: 0.3s
     width: 90%;
-    border-radius: 5px;
+    border-radius: 2vw
     text-align: left
-    line-height: .7rem
+    line-height: 7vw
     .link
-      font-size: .3rem
-      margin-bottom: .3rem
+      font-size: 4vw
+      margin-bottom: 3vw
       .link-text
         text-align: middle
     .title
-      font-size: .3rem
+      font-size: 4vw
     .content
-      font-size: .2rem
+      font-size: 3vw
 </style>
